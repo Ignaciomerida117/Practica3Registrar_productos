@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+   
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    color: blue;
+    background-color: skyblue;
+
+}
+
+form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40%;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center; 
+    
+}
+
+table th {
+    background-color: blue;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
